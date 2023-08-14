@@ -4,6 +4,13 @@
 head {
     background-color: black;
 }
+h2{
+    text-shadow: 2px 2px white ;
+}
+h3{
+    text-decoration-line: underline;
+    text-align: left;
+}
 body{
     display:grid;
     width: 100%;
@@ -20,11 +27,16 @@ body{
 }
 .center{
     display: block;
-    margin-left: auto;
     margin-right: auto;
-    width: 50%
+    width: 75%
 }
 
+.center1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+}
 
 
 .nav-list {
@@ -56,3 +68,10 @@ body{
     line-height: 75px;
     font-size: 30px;
 }
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+  }
